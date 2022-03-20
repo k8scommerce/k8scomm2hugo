@@ -1,4 +1,4 @@
-module k8scomm2hugo
+module github.com/k8scommerce/k8scomm2hugo
 
 go 1.17
 

@@ -5,7 +5,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	"k8scomm2hugo/internal/builder"
+	"github.com/k8scommerce/k8scomm2hugo/internal/builder"
 
 	"github.com/spf13/cobra"
 )
