@@ -11,7 +11,7 @@ go install github.com/k8scommerce/k8scomm2hugo@latest
 ## Example
 
 ```bash
-k8scomm2hugo generate -e https://yourstoreapi.url -k <yoursitekey> -o ./content -p products -c categories
+k8scomm2hugo generate -e https://yourstoreapi.url -k yoursitekey -o ./content -p products -c categories
 ```
 
 ## Usage
