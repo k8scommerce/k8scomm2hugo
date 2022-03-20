@@ -2,6 +2,18 @@
 
 Queries your K8sCommerce store's API and generates Hugo Front Matter markdown files for both categories & products.
 
+## Installation
+
+```bash
+go install github.com/k8scommerce/k8scomm2hugo@latest
+```
+
+## Example
+
+```bash
+k8scomm2hugo generate -e https://yourstoreapi.url -k <yoursitekey> -o ./content -p products -c categories
+```
+
 ## Usage
 
 ```bash
@@ -20,10 +32,4 @@ Flags:
   -t, --toggle   Help message for toggle
 
 Use "k8scomm2hugo [command] --help" for more information about a command.
-```
-
-## Example
-
-```bash
-k8scomm2hugo generate -e https://yourstoreapi.url -k <yoursitekey> -o ./content -p products -c categories
 ```
