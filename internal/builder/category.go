@@ -1,3 +1,6 @@
+/*
+Copyright © 2022 K8sCommerce
+*/
 package builder
 
 import (

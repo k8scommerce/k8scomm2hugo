@@ -1,6 +1,5 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2022 K8sCommerce
 */
 package cmd
 
@@ -10,7 +9,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// generateCmd represents the generate command
 var (
 	generateCmd = &cobra.Command{
 		Use:   "generate",
@@ -23,11 +21,6 @@ the API and store-key.`,
 			outputDir, _ := cmd.Flags().GetString("output")
 			product, _ := cmd.Flags().GetString("product")
 			category, _ := cmd.Flags().GetString("category")
-			// fmt.Println("value of the flag apiURL :" + apiURL)
-			// fmt.Println("value of the flag storekey :" + storeKey)
-			// fmt.Println("value of the flag output :" + outputDir)
-			// fmt.Println("value of the flag product :" + product)
-			// fmt.Println("value of the flag category :" + category)
 
 			builder.NewCategoryBuilder(apiURL, storeKey, outputDir, category).Build()
 			builder.NewProductBuilder(apiURL, storeKey, outputDir, product).Build()
